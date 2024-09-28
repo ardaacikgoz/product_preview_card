@@ -1,0 +1,159 @@
+@media (max-width:20em) {
+
+
+
+
+
+    body {
+
+        background-color: hsl(30, 38%, 92%);
+
+
+
+
+
+    }
+
+
+
+    h1 {
+
+
+
+        font-family: Montserrat, sans-serif;
+
+        font-weight: 300;
+
+        letter-spacing: 1rem;
+
+        font-size: 1.5rem;
+
+
+    }
+
+    h2 {
+
+
+
+        font-family: Fraunces, sans-serif;
+
+        font-weight: 700;
+
+
+
+
+    }
+
+    .container {
+
+
+        width: 100%;
+
+        min-height: 100%;
+
+        border-top-left-radius: 3%;
+
+        border-top-right-radius: 3%;
+
+        background-color: hsl(0, 0%, 100%);
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        justify-content: center;
+
+
+    }
+
+    .texting {
+
+        padding-left: 3%;
+
+
+
+    }
+
+    p {
+
+        font-family: Montserrat, sans-serif;
+
+        color: hsl(228, 12%, 48%);
+
+        font-weight: 500;
+
+        max-width: 100%;
+
+
+    }
+
+    .pricing {
+
+
+        display: flex;
+
+        align-items: center;
+
+
+    }
+
+    .price-new {
+
+        font-family: "Fraunces", sans-serif;
+
+        font-size: 1.5rem;
+
+        color: hsl(158, 36%, 37%);
+
+
+    }
+
+
+    .price-old {
+
+        text-decoration: line-through;
+
+        font-size: 0.75rem;
+
+
+    }
+
+
+
+    button {
+
+        background-color: hsl(158, 36%, 37%);
+
+        color: hsl(0, 0%, 100%);
+
+        border-radius: 0.2rem;
+
+        margin-bottom: 5%;
+        
+        width: 50%;
+
+        height: 5%;
+    }
+
+
+
+
+    img {
+
+
+
+        max-inline-size: 100%;
+
+        block-size: auto;
+
+        border-top-left-radius: 3%;
+
+        border-top-right-radius: 3%;
+
+
+
+    }
+
+}
