@@ -1,4 +1,4 @@
-@media (max-width:20em) {
+@media (max-width:30em) {
 
 
 
@@ -7,8 +7,6 @@
     body {
 
         background-color: hsl(30, 38%, 92%);
-
-
 
 
 
@@ -24,9 +22,9 @@
 
         font-weight: 300;
 
-        letter-spacing: 1rem;
+        letter-spacing: 0.25rem;
 
-        font-size: 1.5rem;
+        font-size: 1rem;
 
 
     }
@@ -39,9 +37,11 @@
 
         font-weight: 700;
 
+        color: hsl(212, 21%, 14%);
 
+        font-size: 1.25rem;
 
-
+    
     }
 
     .container {
@@ -49,7 +49,7 @@
 
         width: 100%;
 
-        min-height: 100%;
+        height: 100%;
 
         border-top-left-radius: 3%;
 
@@ -70,8 +70,17 @@
 
     .texting {
 
-        padding-left: 3%;
+        padding-left: 10%;
 
+        width: 100%;
+
+        height: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
 
 
     }
@@ -86,6 +95,7 @@
 
         max-width: 100%;
 
+        font-size: 1rem;
 
     }
 
@@ -95,6 +105,9 @@
         display: flex;
 
         align-items: center;
+
+        
+
 
 
     }
@@ -107,6 +120,8 @@
 
         color: hsl(158, 36%, 37%);
 
+        font-weight: 700;
+
 
     }
 
@@ -117,6 +132,10 @@
 
         font-size: 0.75rem;
 
+        margin-left: 5%;
+
+        font-size: 0.75rem;
+
 
     }
 
@@ -124,19 +143,32 @@
 
     button {
 
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+       
         background-color: hsl(158, 36%, 37%);
 
         color: hsl(0, 0%, 100%);
 
-        border-radius: 0.2rem;
+        font-weight: 700;
+
+        border: thin;
+
+        border-radius: 0.5rem;
 
         margin-bottom: 5%;
+
+        width: 70%;
+
+        padding: 5% 0 5% 0;
+
         
-        width: 50%;
 
-        height: 5%;
+        
     }
-
 
 
 
